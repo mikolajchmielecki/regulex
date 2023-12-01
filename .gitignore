@@ -8,3 +8,4 @@ test/log/
 *.code-workspace
 *.swp
 docs/beta.html
+.idea

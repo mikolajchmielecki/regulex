@@ -81,10 +81,5 @@
     "format": "prettier --write \"{src,test}/**/*.{js,ts,css}\" \"./*.{js,ts,css}\"",
     "buildUnicode": "ts-node src/tools/buildUnicode.ts && npm run format && npm run build",
     "prepare": "npm run build"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
   }
 }
